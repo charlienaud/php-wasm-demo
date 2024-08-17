@@ -1,0 +1,9 @@
+{
+    "name": "charlienaud/php-wasm-demo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "WasmApp\\": "src/"
+        }
+    }
+}
