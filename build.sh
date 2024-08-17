@@ -30,6 +30,3 @@ sed 's/REMOTE_PACKAGE_BASE = '\''php-web.data'\''/REMOTE_PACKAGE_BASE = '\''dist
 
 
 sed '/--pre-js/r public/dist/php-web.data.js' public/dist/php-web.mjs > this-has-preloaded-data-php-web.mjs ; mv this-has-preloaded-data-php-web.mjs public/dist/php-web.mjs
-
-
-php -S localhost:8080 -t public/
